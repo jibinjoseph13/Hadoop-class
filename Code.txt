@@ -6,8 +6,6 @@ ls
 hdfs dfs -ls /user/hive
 hdfs dfs -ls /user/hive/warehouse
 
-hdfs dfs -put /home/jj13/hadoopdata/empdata.csv /user/data/empdata.csv
-
 hdfs dfs -mkdir -p /user/data
 hdfs dfs -put /home/jj13/hadoopdata/empdata.csv /user/data/empdata.csv
 

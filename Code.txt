@@ -22,7 +22,7 @@ Select existing column
 E = foreach A generate eid;
 
 Create new column
-F = foreach A generate * as Bonus,esal*5 as Incentive;
+F = foreach A generate *,esal*5 as Incentive;
 
 Transform columns
 G = foreach A generate SUBSTRING(ename,0,4);
